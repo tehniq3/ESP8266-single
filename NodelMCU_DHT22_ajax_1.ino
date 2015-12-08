@@ -100,7 +100,7 @@ Serial.print(has);
 Serial.println(" %");
 Serial.print("t = ");
 Serial.print(te/10);
-Serial.println("°C");
+Serial.println("^C");
       Time+= "temp: " + (String)te1 + "," + (String)te2 + "°C ";
       Time+= " humidity: " + (String)has + "%";  
   return Time;
