@@ -96,11 +96,12 @@ te1 = te/10;
 te2 = te - 10*te1;
 has = dht.readHumidity();
 Serial.print("h = ");
-Serial.println(has);
+Serial.print(has);
+Serial.println(" %");
 Serial.print("t = ");
-Serial.println(te/10);
-
-      Time+= "temp: " + (String)te1 + "," + (String)te2 + "^C ";
+Serial.print(te/10);
+Serial.println("°C");
+      Time+= "temp: " + (String)te1 + "," + (String)te2 + "°C ";
       Time+= " humidity: " + (String)has + "%";  
   return Time;
 }
