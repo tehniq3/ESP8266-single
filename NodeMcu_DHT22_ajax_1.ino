@@ -1,6 +1,6 @@
 // original sketch by katz (i found it at http://www.esp8266.com/viewtopic.php?f=8&t=4307 )
 // adapted sketch by niq_ro ( http://www.tehnic.go.ro )
-// I use a NodelMCU with DHT22 at D1 pin (GPIO5)
+// I use a NodeMcu with DHT22 at D1 pin (GPIO5)
 
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
