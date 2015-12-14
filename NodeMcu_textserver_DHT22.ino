@@ -2,6 +2,7 @@
  * DOCS:
  *    https://github.com/esp8266/Arduino/blob/master/doc/reference.md
  *    https://www.descurcareste.ro/tehnologie/server-web-cu-nodemcuesp8266-si-dht11-in-arduino-ide-308
+ *    https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/using-arduino-ide
  */
  
 #include <ESP8266WiFi.h>
