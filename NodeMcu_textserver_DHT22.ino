@@ -99,7 +99,7 @@ Serial.print("t = ");
 Serial.println(te);
  citire = 1;        // note that (temperature was read)
  }
- if (millis() > taim5 + 15000) // if time between sensor reading is too lonf 
+ if (millis() > taim5 + 15000) // if time between sensor reading is too long 
 {
  citire = 0;        // must read again the temperature
  Serial.println("!");
